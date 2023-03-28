@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_pointer - Prints the value of a pointer variable
+ * print_pointer - function that prints the value of a pointer variable
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -50,9 +50,9 @@ int print_pointer(va_list types, char buffer[],
 				width, flags, padd, extra_c, padd_start));
 }
 
-/************************* PRINT NON PRINTABLE *************************/
+/****** PRINT NON PRINTABLE *****/
 /**
- * print_non_printable - Prints ascii codes in hexa of non printable chars
+ * print_non_printable - function that prints ascii codes in hexa of non printable chars
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
