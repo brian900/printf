@@ -1,6 +1,4 @@
 #include "main.h"
-
-/******** WRITE HANDLE ***/
 /**
  * handle_write_char - Function that prints a string
  * @c: char types.
